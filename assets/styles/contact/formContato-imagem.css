@@ -1,0 +1,12 @@
+@media screen and (min-width: 768px) {
+	.formcontato__imagem {
+		width: 50%;
+		max-width: 100%;
+		margin-right: 25px;
+		background: url(../../img/fundo_contact.jpg) center / cover no-repeat;
+		background-color: #292a2d;
+		opacity: .2;
+		border-top-left-radius: 10px;
+		border-bottom-left-radius: 10px;
+	}
+}

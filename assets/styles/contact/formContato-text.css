@@ -1,0 +1,14 @@
+.formcontato__text {
+	padding: 1rem;
+}
+
+@media screen and (min-width: 0px) {
+	.formcontato__text {
+		width: 100%;
+	}
+}
+@media screen and (min-width: 768px) {
+	.formcontato__text {
+		width: 60%;
+	}
+}

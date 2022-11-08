@@ -1,0 +1,47 @@
+header {
+	background: url(../../img/fundo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: var(--bg-color-one);
+	padding: 20px 0;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	max-width: 990px;
+	margin: auto;
+	animation: fromTop .6s;
+}
+
+.header__logo__link {
+	font-family: monospace;
+	font-size: 1.3rem;
+	font-weight: 800;
+	color: var(--cor-do-texto);
+}
+
+@keyframes fromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* responsividade */
+@media screen and (min-width: 0px) {
+	.header {
+		flex-direction: column;
+	}
+}
+@media screen and (min-width: 768px) {
+	.header {
+		flex-direction: row;
+	}
+}

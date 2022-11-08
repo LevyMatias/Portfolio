@@ -1,0 +1,62 @@
+.presentation__buttons {
+	margin-top: 20px;
+	width: 100%;
+}
+
+.presentation__btn {
+	padding: 10px 35px;
+	color: #292a2d;
+	font-size: 17px;
+	border: none;
+	border-radius: 3px;
+	background-color: var(--cor-do-texto);
+	cursor: pointer;
+	transition: .3s ease;
+}
+
+.presentation__btn i {
+	color: #292a2d;
+}
+
+.presentation__btn:hover {
+	background-color: #e4eaf0;
+}
+
+/* projects */
+.experience__btns {
+	margin-right: 20px;
+}
+
+.experience__btn__projects {
+	width: 100%;
+	display: inline-block;
+	text-align: center;	
+}
+
+.experience__btn__link {
+	border: var(--bg-color-two) 2px solid;
+	border-radius: 10px;
+	padding: .75rem 2rem;
+	color: var(--cor-do-texto);
+	transition: .3s ease-out;
+}
+
+.experience__btn__link:hover {
+	background-color: var(--bg-color-two);
+}
+
+/* form */
+.formcontato__botao {
+	margin-top: 25px;
+	padding: 10px 20px;
+	cursor: pointer;
+	border: none;
+	border-radius: 3px;
+	color: #292a2d;
+	background-color: var(--cor-do-texto);
+	transition: .3s ease;
+}
+
+.formcontato__botao:hover {
+	background-color: #e4eaf0;
+}

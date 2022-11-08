@@ -1,0 +1,56 @@
+.presentation {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	max-width: 990px;
+	margin: auto;
+}
+
+.presentation__about {
+	padding-top: 2rem;
+}
+
+.presentation__paragraph:nth-child(1), .presentation__paragraph:nth-child(2) {
+	font-size: 1.3rem;
+}
+
+.presentation__paragraph:nth-child(3) {
+    margin-top: 7px;
+}
+
+.hand {
+	font-size: 40px;
+}
+
+.name {
+	color: #579db9;
+	font-weight: bold;
+}
+
+@media screen and (min-width: 0px) {
+	.presentation {
+		padding-top: 2rem;
+		width: 95%;
+		margin: 0 auto;
+	}
+
+	.presentation__buttons {
+		margin: 20px auto;
+	}
+}
+@media screen and (max-width: 410px) {
+	.presentation__btn {
+		margin: 10px auto;
+	}
+}
+@media screen and (min-width: 768px) {
+	.presentation__buttons {
+		width: 100%;
+	}
+
+	.presentation__about {
+		width: 60%;
+		margin: 0;
+	}
+}

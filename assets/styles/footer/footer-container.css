@@ -1,0 +1,10 @@
+.footer__container {
+	width: 100%;
+	max-width: 990px;
+	margin: auto;
+	text-align: center;
+}
+
+.footer__container p {
+	margin-top: 15px;
+}

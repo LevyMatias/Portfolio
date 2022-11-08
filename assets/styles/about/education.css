@@ -1,0 +1,48 @@
+.education {
+	display: grid;
+	margin-top: 10px;
+	font-size: 12px;
+	gap: 10px;
+}
+
+.education__title {
+	margin-top: 15px;
+}
+
+.education__course {
+	display: flex;
+	align-items: center;
+	padding: 10px 10px;
+	width: 100%;
+	background-color: var(--bg-color-two);
+	border-radius: 5px;
+}
+
+.education__course > div {
+	margin-left: 6px;
+}
+
+.education__course-logo {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+@media screen and (min-width: 0px) {
+	.education {
+		grid-template-columns: 100%;
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 421px) {
+	.education {
+		grid-template-columns: 49% 49%;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.education {
+		grid-template-columns: 33.33% 33.33% 33.33%;
+	}
+}

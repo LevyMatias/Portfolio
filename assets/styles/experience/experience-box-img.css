@@ -1,0 +1,17 @@
+@media screen and (min-width: 0px) {
+	.experience__box__img {
+		width: 100%;
+		transition: .3s ease;
+	}
+}
+@media screen and (min-width: 768px) {
+	.experience__box__img {
+		width: 50%;
+	}
+}
+
+.experience__box__img:hover {
+	border-radius: 10px;
+	background-color: black;
+	opacity: .6;
+}

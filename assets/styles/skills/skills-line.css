@@ -1,0 +1,17 @@
+.skills__line {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	max-width: 990px;
+	margin: 0 auto;
+	padding-top: 2rem;
+	padding-bottom: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+	.skills__line {
+		justify-content: center;
+	}
+}
+
+

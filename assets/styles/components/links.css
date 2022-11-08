@@ -1,0 +1,62 @@
+.nav__item {
+	border-radius: 7px;
+	padding: 10px 20px;
+	transition: .3s ease;
+	cursor: pointer;
+}
+
+.nav__item:hover {
+	background-color: #323336;
+}
+
+.nav__link {
+	color: var(--cor-do-texto);
+}
+
+/* profile */
+.profile__network__link {
+	color: var(--cor-do-texto);
+	transition: .3s ease;
+}
+
+.profile__network__icon {
+	font-size: 25px;
+	margin-right: 7px;
+	transition: .2s ease-in;
+}
+
+/* social media */
+.linkedin:hover {color: #259bed;}
+.github:hover {color: #f0f6fc;}
+.whatsapp:hover {color: #64e444;}
+.telegram:hover {color: #66a0ec;}
+.fa-github {color: var(--cor-do-texto);}
+.fa-github:hover {color: var(--cor-de-fundo);}
+
+
+/* projects */
+.experience__link, .fa-github {
+	color: #a9a9b3;
+	font-size: 25px;
+	transition: .3s ease;
+    margin-left: 10px;
+}
+
+.experience__link:hover {
+	color: var(--cor-de-fundo);
+}
+
+/* footer */
+.footer__link img {
+	width: 35px;
+}
+
+.footer__link i {
+	font-size: 30px;
+	height: 35px;
+	margin-left: 10px;
+}
+
+.footer__link .fa-linkedin {
+	color: #1c96c8;
+}

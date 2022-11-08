@@ -1,0 +1,9 @@
+.formcontato__input {
+	padding: 12px 5px;
+	margin-top: 25px;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid var(--cor-do-texto);
+	color: var(--cor-do-texto);
+	background-color: #2d2f31;
+}

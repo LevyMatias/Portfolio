@@ -1,0 +1,14 @@
+.formcontato__contact {
+	/* width: 100%; */
+	max-width: 990px;
+	margin: auto;
+	background-color: var(--bg-color-one);
+	border-radius: 10px;
+	display: flex;
+}
+
+@media screen and (min-width: 0px) {
+	.formcontato__contact {
+		width: 95%;
+	}
+}

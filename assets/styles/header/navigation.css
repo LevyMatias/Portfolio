@@ -1,0 +1,24 @@
+.nav__list {
+	display: flex;
+}
+
+.nav__icon {
+	margin-right: 5px;
+}
+
+@media screen and (min-width: 0px) {
+	.nav__list {
+		flex-direction: column;
+		margin-top: .85rem;
+	}
+}
+@media screen and (min-width: 421px) {
+	.nav__list {
+		flex-direction: row;
+	}
+}
+@media screen and (max-width: 421px) {
+	.nav__list {
+		text-align: center;
+	}
+}

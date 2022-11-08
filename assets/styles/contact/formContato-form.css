@@ -1,0 +1,20 @@
+.formcontato__form {
+	display: flex;
+	flex-direction: column;
+}
+
+@media screen and (min-width: 0px) {
+	.formcontato__form {
+		width: 100%;
+	}
+}
+@media screen and (min-width: 421px) {
+	.formcontato__botao {
+		width: 50%;
+	}
+}
+@media screen and (min-width: 768px) {
+	.formcontato__form {
+		width: 90%;
+	}
+}

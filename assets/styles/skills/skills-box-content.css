@@ -1,0 +1,30 @@
+.skills__box__content {
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 100%;
+	transition: .2s ease-in;
+}
+
+.skills__box__content:hover {
+    background-color: #292a2d;
+	opacity: .5;
+}
+
+.skills__box__content i {
+    font-size: 55px;
+}
+
+/* tecnologias */
+.fa-square-js { color: #f7df1e;}
+.fa-html5 { color: #f1662a;}
+.fa-css3-alt { color: #1572b6;}
+.fa-react { color: #00d8ff;}
+.fa-bootstrap { color: #7e13f8;}
+.fa-figma { width: 55px; height: 55px;}
+.fa-csharp { width: 55px; height: 55px;}
+.fa-java { width: 55px; height: 55px;}
+.fa-git-alt { color: #de4c36;}
+.fa-vscode {  width: 55px; height: 55px;}
+.fa-npm { color: #c53635;}

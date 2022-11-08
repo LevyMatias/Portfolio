@@ -1,0 +1,15 @@
+.experience__description {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-left: 20px;
+	width: 50%;
+}
+@media screen and (max-width: 768px) {
+	.experience__description {
+		padding: .75rem 0;
+		height: 25vh;
+		width: 95%;
+		margin: auto;
+	}
+}

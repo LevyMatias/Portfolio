@@ -1,0 +1,9 @@
+.footer__connect {
+	width: 20%;
+	height: 35px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+}
