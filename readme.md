@@ -11,7 +11,7 @@ Projeto desenvolvido no programa oracle one como desafio da formação frontend.
 
 ## 🚀 Deploy
 
-- <a href="https://levymatias.github.io/Portfolio/" target="blank">Live</a>
+- <a href="https://levymatias.github.io/Portfolio/" target="_blank">Live</a>
 
 
 
@@ -31,6 +31,6 @@ Projeto desenvolvido no programa oracle one como desafio da formação frontend.
 
 ## 🦸 Autores
 
-- <a href="https://www.linkedin.com/in/levy-matias/" target="blank">Levy Matias</a>
+- <a href="https://www.linkedin.com/in/levy-matias/" target="_blank">Levy Matias</a>
   
 ---
