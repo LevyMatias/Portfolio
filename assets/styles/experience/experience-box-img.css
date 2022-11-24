@@ -2,11 +2,13 @@
 	.experience__box__img {
 		width: 100%;
 		transition: .3s ease;
+		height: 25vh;
 	}
 }
 @media screen and (min-width: 768px) {
 	.experience__box__img {
 		width: 50%;
+		height: 40vh;
 	}
 }
 
