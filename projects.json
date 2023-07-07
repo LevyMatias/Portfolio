@@ -3,7 +3,7 @@
     "title": "Rocket Pay",
     "description": "O Rocketpay é uma pequena aplicação que simula o formulário de preenchimento de cartão de crédito ",
     "school": "Rocketseat",
-    "imageUrl": "../assets/img/projects/rocketpay.png",
+    "imageUrl": "assets/img/projects/rocketpay.png",
     "projectUrl": "https://rocketapayexlab01.netlify.app/",
     "github": "https://github.com/LevyMatias/Rocket_Pay",
     "stackIcon": [
@@ -18,7 +18,7 @@
     "title": "Calculadora",
     "description": "Uma calculadora básica com operações de adição, subtração, divisão e multiplicação",
     "school": "Youtube",
-    "imageUrl": "../assets/img/projects/calculator.png",
+    "imageUrl": "assets/img/projects/calculator.png",
     "projectUrl": "https://levymatias.github.io/calculator-1/",
     "github": "https://github.com/LevyMatias/calculator-1",
     "stackIcon": [
@@ -31,7 +31,7 @@
     "title": "Doguito Petshop",
     "description": "Projeto de validação onde criamos regex para cpf e cep, também ultilizamos api viaCEP para preencher os outros campos automáticamente.",
     "school": "Alura",
-    "imageUrl": "../assets/img/projects/doguito.png",
+    "imageUrl": "assets/img/projects/doguito.png",
     "projectUrl": "https://doguitopet.netlify.app/",
     "github": "https://github.com/LevyMatias/Javascript-one/tree/main/projeto_validacao_formulario",
     "stackIcon": [
@@ -44,7 +44,7 @@
     "title": "Forca",
     "description": "Este projeto foi feito no programa oracle one que busca recriar o jogo da forca com JavaScript",
     "school": "Alura",
-    "imageUrl": "../assets/img/projects/jogo-da-forca-web.png",
+    "imageUrl": "assets/img/projects/jogo-da-forca-web.png",
     "projectUrl": "https://levymatias.github.io/jogo_da_forca/",
     "github": "https://github.com/LevyMatias/jogo_da_forca",
     "stackIcon": [
@@ -57,7 +57,7 @@
     "title": "Memory Game",
     "description": "Este projeto foi feito youtube no canal da freeCodeCamp que busca recriar o jogo da memória com JavaScript ",
     "school": "freeCodeCamp",
-    "imageUrl": "../assets/img/projects/memory-game.png",
+    "imageUrl": "assets/img/projects/memory-game.png",
     "projectUrl": "https://memorygame-22.netlify.app/",
     "github": "https://github.com/LevyMatias/memory_game",
     "stackIcon": [
@@ -70,7 +70,7 @@
     "title": "Rating Component",
     "description": "Esta é uma solução para o desafio card rating component do Frontend Mentor",
     "school": "Frontend Mentor",
-    "imageUrl": "../assets/img/projects/desktop-design.jpg",
+    "imageUrl": "assets/img/projects/desktop-design.jpg",
     "projectUrl": "https://levymatias.github.io/card_rating-component/",
     "github": "https://github.com/LevyMatias/card_rating-component",
     "stackIcon": [
