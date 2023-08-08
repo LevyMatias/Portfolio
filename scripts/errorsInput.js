@@ -2,7 +2,7 @@ export const requiredFields = document.querySelectorAll('.required');
 const spans = document.querySelectorAll('.formcontato__form .span__required');
 
 function setErrorInput(index, text) {
-    requiredFields[index].style.border = '1px solid red';
+    requiredFields[index].style.borderBottom = '1px solid red';
     requiredFields[index].style.borderRadius = '3px';
     spans[index].style.display = 'block';
     spans[index].innerHTML = text;
@@ -13,7 +13,7 @@ function setErrorInput(index, text) {
 }
 
 function removeErrorInput(index) {
-    requiredFields[index].style.border = '1px solid green';
+    requiredFields[index].style.borderBottom = '1px solid green';
     requiredFields[index].style.borderRadius = '3px';
     spans[index].style.display = 'none';
 }

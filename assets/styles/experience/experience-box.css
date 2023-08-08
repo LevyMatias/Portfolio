@@ -2,6 +2,7 @@
 	border-radius: 10px;
 	background-color: var(--bg-color-two);
 	display: flex;
+	box-shadow: 4px 7px 19px -6px rgba(21,21,21,0.75);
 }
 
 @media screen and (min-width: 0px) {
@@ -13,7 +14,8 @@
 }
 @media screen and (min-width: 768px) {
 	.experience__box {
-		flex-direction: row;
+		flex-direction: column;
+		flex-basis: calc(50% - 15px);
 	}
 }
 @media screen and (min-width: 1024px) {

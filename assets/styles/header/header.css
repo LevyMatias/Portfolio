@@ -1,9 +1,7 @@
 header {
-	background: url(../../img/fundo.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: var(--bg-color-one);
-	padding: 20px 0;
 }
 
 .header {
@@ -11,9 +9,9 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	width: 100%;
-	max-width: 990px;
-	margin: auto;
+	padding: 2rem 1.5rem;
 	animation: fromTop .6s;
+	background-color: var(--bg-color-two);
 }
 
 .header__logo__link {

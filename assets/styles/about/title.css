@@ -1,5 +1,5 @@
 .title {
-	background-color: #292a2d;
+	background-color: var(--bg-color-one);
 	padding: 2rem 0;
 }
 

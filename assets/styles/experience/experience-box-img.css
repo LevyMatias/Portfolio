@@ -7,7 +7,7 @@
 }
 @media screen and (min-width: 768px) {
 	.experience__box__img {
-		width: 50%;
+		width: 100%;
 		height: 40vh;
 	}
 }

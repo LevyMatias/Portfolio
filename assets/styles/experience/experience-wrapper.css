@@ -4,4 +4,7 @@
 	margin: auto;
 	padding-top: 2rem;
 	padding-bottom: 3rem;
+	display: flex;
+	flex-wrap: wrap;
+	/* justify-content: space-between; */
 }

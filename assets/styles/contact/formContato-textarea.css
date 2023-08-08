@@ -5,6 +5,6 @@
 	border: none;
 	border-bottom: 1px solid var(--cor-do-texto);
 	color: var(--cor-do-texto);
-	background-color: #2d2f31;
+	background-color: var(--bg-color-one);
 	padding-left: 5px;
 }
